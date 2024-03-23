@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilasColas", "PilasColas\PilasColas.csproj", "{5A817CA4-1496-4343-A0B5-2D763856B5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arreglos", "arreglos\Arreglos.csproj", "{FE680073-E8D2-4C0C-86F5-71CB662151EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{A8933412-44E7-4731-9D63-4524D6E97C71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A817CA4-1496-4343-A0B5-2D763856B5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A817CA4-1496-4343-A0B5-2D763856B5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A817CA4-1496-4343-A0B5-2D763856B5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A817CA4-1496-4343-A0B5-2D763856B5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE680073-E8D2-4C0C-86F5-71CB662151EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE680073-E8D2-4C0C-86F5-71CB662151EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE680073-E8D2-4C0C-86F5-71CB662151EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE680073-E8D2-4C0C-86F5-71CB662151EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8933412-44E7-4731-9D63-4524D6E97C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8933412-44E7-4731-9D63-4524D6E97C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8933412-44E7-4731-9D63-4524D6E97C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8933412-44E7-4731-9D63-4524D6E97C71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B770C190-3EE4-44A0-966F-01E2E53C547E}
+	EndGlobalSection
+EndGlobal
