@@ -34,14 +34,39 @@ namespace Arreglos
 
         public void Agregar(string dato)
         {
-            if (EstaLleno() == true) 
+            if (EstaLleno() == true)
             {
-                throw new Exception("NO HAY ESPACIO");         
+                throw new Exception("NO HAY ESPACIO");
             }
             _arreglo[_tope] = dato;
             _tope++;
         }
 
+        private bool EstaVacio()
+        {
+            if (_tope <= 0)
+            {
+                return true;
+            }
+            else 
+            {
+                return false;
+            }
+        }
+
+        public void Eliminar() 
+        {
+          if (EstaVacio() == true) 
+            {
+                throw new Exception("YA NO HAY ELEMENTOS QUE ELIMINAR");
+            }
+                _tope--;
+                _arreglo[_tope] = string.Empty;
+        }
+        public string[] ObtenerArreglo() 
+        {
+            return _arreglo;
+        }
     }
 }
 
