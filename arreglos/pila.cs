@@ -63,6 +63,7 @@ namespace Arreglos
                 _tope--;
                 _arreglo[_tope] = string.Empty;
         }
+
         public string[] ObtenerArreglo() 
         {
             return _arreglo;
